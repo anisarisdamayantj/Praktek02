@@ -10,5 +10,11 @@ public class TriangleAksi {
         System.out.println("Luas Triangle= "+t1.hitungluas());
         t1.cetakInfo();
         t1.cetakLuas();
+        
+        Triangle t2 = new Triangle();
+            t2.cetakInfo();
+            
+        Triangle t3 = new Triangle(10,15);
+            t3.cetakInfo();    
     }
 }

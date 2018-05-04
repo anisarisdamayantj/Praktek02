@@ -7,6 +7,11 @@ public class Triangle {
         alas = 5;
         tinggi = 9;
     }
+
+    public Triangle(double alas, double tinggi) {
+        this.alas = alas;
+        this.tinggi = tinggi;
+    }
     
     
     
